@@ -6,7 +6,7 @@ const storeuid = "MoBAXZuhD1X2MOsRF2qfQuoWAUD2";
 const storePhoneNum = "+20 114 2077 658 ";
 const storePhoneNum2 = "";
 const storeEmail = "Kadrystore2025@gmail.com";
-const storeGender = ["Men", "Women", "Kids"];
+const storeGender = ["Men"];
 const storeType = "clothing"; // clothing or footwear
 const freeshipping = "2000";
 //images url

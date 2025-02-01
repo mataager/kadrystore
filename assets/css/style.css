@@ -197,6 +197,7 @@ body {
 }
 
 .btn-shopnow {
+  border-radius: 10px;
   background: #000000;
   color: var(--color, var(--white));
   font-size: var(--fs-5);
@@ -501,6 +502,7 @@ body {
 }
 
 .nav-open-btn {
+  border-radius: 10px;
   font-size: 30px;
   background: #000;
   color: var(--white);
@@ -2607,6 +2609,7 @@ select {
 }
 
 .cus-btn {
+  border-radius: 10px;
   margin: 2px;
   padding: 7px;
   color: rgb(255 255 255);
@@ -4889,4 +4892,11 @@ th {
   color: rgba(0, 128, 0, 0.582);
   transform: scale(1.2);
 
+}
+
+.panner-txt-area {
+  width: fit-content;
+  border-radius: 20px;
+  padding: 10px;
+  background: #ffffff66;
 }

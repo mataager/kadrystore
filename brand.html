@@ -12,7 +12,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title id="store-title"></title>
-    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+    <link rel="shortcut icon" href="./favicon.png" type="image/svg+xml">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
@@ -36,47 +36,51 @@
 </div>
 <article>
     <header class="header" data-header="">
-        <div class="header__bar">Free Shipping On Orders Over <div class="m-x-3" id="free-shipping"></div> EGP</div>
+        <div class="header__bar">
+            Shipping All Over Egypt For <span class="m-x-3" id="free-shipping">5 </span> EGP
+        </div>
         <div class="container">
-
+    
             <div class="overlay" data-overlay=""></div>
-
+    
             <a href="./index.html" class="logo">
                 <img src="./assets/images/iicon.svg" width="160" height="50" alt="">
             </a>
-
+    
             <button class="nav-open-btn" data-nav-open-btn="" aria-label="Open Menu">
                 <ion-icon name="menu-outline" role="img" class="md hydrated" aria-label="menu outline"></ion-icon>
             </button>
-
+    
             <nav class="navbar" data-navbar="">
-
+    
                 <button class="nav-close-btn black-font" data-nav-close-btn="" aria-label="Close Menu">
                     <ion-icon name="close-outline" role="img" class="md hydrated" aria-label="close outline"></ion-icon>
                 </button>
-
+    
                 <a href="#" class="logo bg-white">
                     <img src="./assets/images/iicon.svg" width="190" height="50" alt="">
                 </a>
-
+    
                 <ul class="navbar-list">
                     <li class="navbar-item">
                         <a href="#" class="navbar-link" onclick="changeFrameSrc('index.html')">Home</a>
                     </li>
-                    <li class="navbar-item">
-                        <a href="#" class="navbar-link" onclick="changeFrameSrc('Products.html')">Products</a>
-                    </li>
                     <!-- <li class="navbar-item">
-                                                        <a href="#" class="navbar-link" onclick="changeFrameSrc('About.html')">About</a>
-                                                    </li> -->
-                
+                                            <a href="#" class="navbar-link" onclick="changeFrameSrc('About.html')">About</a>
+                                        </li> -->
+                    <li class="navbar-item ">
+                        <div class="flex align-items justify-content-space-between">
+                            <a href="#" class="navbar-link" onclick="changeFrameSrc('Products.html')">Products</a>
+                        </div>
+                    </li>
                     <li class="navbar-item hidden" id="megamenu" data-mega-menu>
                         <div class="flex align-items justify-content-space-between">
                             <a href="#" class="navbar-link" onclick="changeFrameSrc('Products.html')">Products</a>
-                            <a id="open-category" class="rotate open-category open-category-btn"><i class="bi bi-plus"></i></a>
+                            <a id="open-category" class="rotate open-category open-category-btn"><i
+                                    class="bi bi-plus"></i></a>
                         </div>
                         <div class="mega-menu flex-direction-column" id="mega-menu">
-                
+    
                         </div>
                     </li>
                     <script>
@@ -126,16 +130,14 @@
                     <li class="navbar-item">
                         <a href="#" class="navbar-link red-txt" onclick="changeFrameSrc('sale.html')">Sale</a>
                     </li>
-                
+    
                     <li class="navbar-item">
                         <a href="#" class="navbar-link" onclick="changeFrameSrc('Contact.html')">Contact</a>
                     </li>
                 </ul>
                 <ul class="nav-action-list">
-
-                    <li class="li-action" id="search-li">
-
-
+    
+                    <li class="li-action hidden" id="search-li">
                     </li>
                     <li class="navbar-item li-action">
                         <button class="nav-action-btn" onclick="changeFrameSrc('Cart.html')">
@@ -145,6 +147,7 @@
                             <data id="cartItemCount" class="nav-action-badge" aria-hidden="true">0</data>
                         </button>
                     </li>
+    
                     <li class="navbar-item li-action">
                         <button class="nav-action-btn" onclick="changeFrameSrc('account.html')">
                             <ion-icon name="person-outline"></ion-icon>
@@ -154,16 +157,16 @@
                     <li>
                         <button class="nav-action-btn hidden">
                             <ion-icon name="heart-outline" aria-hidden="true" role="img" class="md hydrated"></ion-icon>
-
+    
                             <span class="nav-action-text">Wishlist</span>
-
+    
                             <data class="nav-action-badge" value="5" aria-hidden="true">5</data>
                         </button>
                     </li>
                 </ul>
-
+    
             </nav>
-
+    
         </div>
     </header>
 

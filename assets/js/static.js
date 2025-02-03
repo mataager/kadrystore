@@ -7,8 +7,8 @@ const storePhoneNum = "+20 114 2077 658 ";
 const storePhoneNum2 = "";
 const storeEmail = "Kadrystore2025@gmail.com";
 const storeGender = ["Men"];
-const storeType = "clothing"; // clothing or footwear
-const freeshipping = "2000";
+const storeType = "clothing"; // clothing or footwear2
+const freeshipping = "5";
 //images url
 const pannerurl =
   "https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/d9d131120670167.60b65a57b81b3.png";

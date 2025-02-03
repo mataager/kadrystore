@@ -43,7 +43,10 @@
 
 
     <header class="header" data-header="">
-        <div class="header__bar">Free Shipping On Orders Over <div class="m-x-3" id="free-shipping"></div> EGP</div>
+
+        <div class="header__bar">
+            Shipping All Over Egypt For <span class="m-x-3" id="free-shipping">5 </span> EGP
+        </div>
         <div class="container">
 
             <div class="overlay" data-overlay=""></div>
@@ -70,13 +73,14 @@
                     <li class="navbar-item">
                         <a href="#" class="navbar-link" onclick="changeFrameSrc('index.html')">Home</a>
                     </li>
-                    <li class="navbar-item">
-                        <a href="#" class="navbar-link" onclick="changeFrameSrc('Products.html')">Products</a>
-                    </li>
                     <!-- <li class="navbar-item">
                                         <a href="#" class="navbar-link" onclick="changeFrameSrc('About.html')">About</a>
                                     </li> -->
-
+                    <li class="navbar-item ">
+                        <div class="flex align-items justify-content-space-between">
+                            <a href="#" class="navbar-link" onclick="changeFrameSrc('Products.html')">Products</a>
+                        </div>
+                    </li>
                     <li class="navbar-item hidden" id="megamenu" data-mega-menu>
                         <div class="flex align-items justify-content-space-between">
                             <a href="#" class="navbar-link" onclick="changeFrameSrc('Products.html')">Products</a>
@@ -141,7 +145,7 @@
                 </ul>
                 <ul class="nav-action-list">
 
-                    <li class="li-action" id="search-li">
+                    <li class="li-action hidden" id="search-li">
                     </li>
                     <li class="navbar-item li-action">
                         <button class="nav-action-btn" onclick="changeFrameSrc('Cart.html')">
@@ -230,7 +234,7 @@
                         </div>
                     </section>
 
-                    <section class="section collection">
+                    <section class="section collection hidden">
                         <div class="container">
 
                             <ul class="collection-list has-scrollbar">
@@ -813,7 +817,7 @@
 
             </div>
 
-            <section class="section product mt-20">
+            <section class="section product mt-30">
                 <div class="container">
 
                     <h2 class="h2 section-title">Products Overview</h2>
